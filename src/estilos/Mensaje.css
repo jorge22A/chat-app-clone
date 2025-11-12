@@ -1,0 +1,68 @@
+.mensaje {
+  display: flex;
+  margin-bottom: 15px;
+  animation: aparecer 0.3s ease-in;
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.mensaje-usuario {
+  justify-content: flex-end;
+}
+
+.mensaje-recibido {
+  justify-content: flex-start;
+}
+
+.burbuja-mensaje {
+  max-width: 70%;
+  padding: 12px 16px;
+  border-radius: 18px;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mensaje-usuario .burbuja-mensaje {
+  background: #667eea;
+  color: white;
+  border-bottom-right-radius: 5px;
+}
+
+.mensaje-recibido .burbuja-mensaje {
+  background: white;
+  color: #2d3748;
+  border: 1px solid #e2e8f0;
+  border-bottom-left-radius: 5px;
+}
+
+.texto-mensaje {
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
+.tiempo-mensaje {
+  font-size: 0.7rem;
+  opacity: 0.8;
+  text-align: right;
+}
+
+.mensaje-recibido .tiempo-mensaje {
+  text-align: left;
+  color: #718096;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .burbuja-mensaje {
+    max-width: 85%;
+  }
+}
