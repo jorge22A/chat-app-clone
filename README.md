@@ -29,6 +29,9 @@ Tecnologías
 - Demo
 Aplicación desplegada: https://chat-app-clone-rose.vercel.app
 
+Vista Previa
+![Captura de la Aplicación de Chat](./screenshots/captura.png)
+
 Instalación
 
 ```bash
