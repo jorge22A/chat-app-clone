@@ -26,6 +26,9 @@ Tecnologías
 - CSS Nativo - Flexbox/Grid, diseño responsive
 - Componentes - Arquitectura modular y reutilizable
 
+- Demo
+Aplicación desplegada: https://chat-app-clone-rose.vercel.app
+
 Instalación
 
 ```bash
